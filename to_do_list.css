@@ -1,0 +1,54 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(216, 112, 230);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.todo-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    width: 280px;
+    box-shadow: 0 0 40px;
+}
+
+input{
+    width: 70%;
+    padding: 8px;
+    margin-left: 5px;
+}
+
+button{
+    padding: 8px 12px;
+    background-color: rgb(214, 9, 26);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+ul{
+   list-style-type: disc;
+   padding: 0;
+   margin-top: 20px;
+}
+
+li{
+   padding: 10px;
+   border-bottom: 1px solid black;
+   position: relative;
+}
+
+li.completed{
+    text-decoration: wavy;
+    color: grey;
+}
+
+li span{
+    position: absolute;
+    right: 10px;
+    columns: red;
+    cursor: pointer;
+}
